@@ -77,14 +77,12 @@ class FacebookPageFeed extends AbstractFeedProvider
         $this->accessToken = $accessToken;
         $this->fields = [
             'from',
-            'link',
             'picture',
             'full_picture',
             'message',
             'story',
             'type',
             'created_time',
-            'source',
             'status_type'
         ];
         $this->fields = array_unique(array_merge($this->fields, $fields));
