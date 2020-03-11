@@ -81,7 +81,6 @@ class FacebookPageFeed extends AbstractFeedProvider
             'full_picture',
             'message',
             'story',
-            'type',
             'created_time',
             'status_type'
         ];
